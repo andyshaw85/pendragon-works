@@ -1,0 +1,38 @@
+
+
+/* @font-face {
+  font-family: "soehne-breit-kraftig";
+  src: url("soehne-breit-kraftig.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+body {
+  font-family: "soehne-breit-kraftig", sans-serif;
+} */
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  list-style: none;
+  vertical-align: bottom;
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: normal;
+  word-wrap: break-word;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -webkit-text-size-adjust: none;
+}
+
+img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 343px;
+  height: auto;
+}
